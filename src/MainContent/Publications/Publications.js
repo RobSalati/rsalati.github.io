@@ -2,8 +2,8 @@ import React, { useState, useEffect } from "react";
 import BibtexParser from "bibtex-parse-js";
 
 function Publications() {
-    const [journalCounter ] = useState(4);
-    const [conferenceCounter] = useState(4);
+    const [journalCounter ] = useState(1);
+    const [conferenceCounter] = useState(1);
     const [citations, setCitations] = useState([]);
 
     useEffect(() => {
@@ -43,7 +43,7 @@ function Publications() {
                             .filter((citation) => citation.entryType === "article")
                             .map((citation, index) => (
                                 <div key={citation.citationKey}>
-                                    <p> {`[J${journalCounter - index}] `} <span dangerouslySetInnerHTML={{ __html: citation.entryTags.author.replace(/Chrysostomos Karakasis/g, '<strong>Chrysostomos Karakasis</strong>') }} />, "<strong>{citation.entryTags.title}</strong>", in {citation.entryTags.booktitle}, {citation.entryTags.year}{citation.entryTags.note}. <a href={citation.entryTags.url} target="_blank" rel="noopener noreferrer" style={{marginRight: '0px' }}> {citation.entryTags.doi}</a></p>
+                                    <p> {`[J${journalCounter - index}] `} <span dangerouslySetInnerHTML={{ __html: citation.entryTags.author.replace(/Robert Salati/g, '<strong>Robert Salati</strong>') }} />, "<strong>{citation.entryTags.title}</strong>", in {citation.entryTags.booktitle}, {citation.entryTags.year}{citation.entryTags.note}. <a href={citation.entryTags.url} target="_blank" rel="noopener noreferrer" style={{marginRight: '0px' }}> {citation.entryTags.doi}</a></p>
                                     {/*<p>Title: {citation.entryTags.title}</p>*/}
                                     {/*<p>Year: {citation.entryTags.year}</p>*/}
                                     {/* Add more fields as needed */}
@@ -61,7 +61,7 @@ function Publications() {
                             .filter((citation) => citation.entryType === "inproceedings")
                             .map((citation,index) => (
                                 <div key={citation.citationKey}>
-                                    <p> {`[C${conferenceCounter - index}] `} <span style={{ fontWeight: 500 }} dangerouslySetInnerHTML={{ __html: citation.entryTags.author.replace(/Chrysostomos Karakasis/g, '<strong>Chrysostomos Karakasis</strong>') }} />, "<strong>{citation.entryTags.title}</strong>", in {citation.entryTags.booktitle}. <a href={citation.entryTags.url} target="_blank" rel="noopener noreferrer" style={{marginRight: '0px' }}> {citation.entryTags.doi}</a></p>
+                                    <p> {`[C${conferenceCounter - index}] `} <span style={{ fontWeight: 500 }} dangerouslySetInnerHTML={{ __html: citation.entryTags.author.replace(/Robert Salati/g, '<strong>Robert Salati</strong>') }} />, "<strong>{citation.entryTags.title}</strong>", in {citation.entryTags.booktitle}. <a href={citation.entryTags.url} target="_blank" rel="noopener noreferrer" style={{marginRight: '0px' }}> {citation.entryTags.doi}</a></p>
                                     {/*<p>Title: {citation.entryTags.title}</p>*/}
                                     {/*<p>Year: {citation.entryTags.year}</p>*/}
                                     {/* Add more fields as needed */}

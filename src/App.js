@@ -5,6 +5,12 @@ import Experience from "./MainContent/Experience/Experience";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Hobbies from "./MainContent/Hobbies/Hobbies";
 import Diploma from "./MainContent/Experience/Diploma/Diploma";
+import RCNL from "./MainContent/Experience/rcnl/rcnl";
+import Agilent from "./MainContent/Experience/Agilent/Agilent";
+import DelawareTA from "./MainContent/Experience/DelawareTA/DelawareTA";
+import DelawareDegree from "./MainContent/Experience/DelawareDegree/DelawareDegree";
+import RicePhD from "./MainContent/Experience/RicePhD/RicePhD";
+import HorcLab from "./MainContent/Experience/HorcLab/HorcLab";
 import TeachingAssistant from "./MainContent/Experience/TeachingAssistant/TeachingAssistant";
 import JnJIntern from "./MainContent/Experience/JnJIntern/JnJIntern"
 import ResearchAssistant from "./MainContent/Experience/ResearchAssistant/ResearchAssistant";
@@ -24,6 +30,7 @@ import LineTrackingRobot from "./MainContent/Projects/LineTrackingRobot/LineTrac
 import BestZebroSwarm from "./MainContent/Projects/BestZebroSwarm/BestZebroSwarm";
 import PersonalWebpage from "./MainContent/Projects/PersonalWebpage/PersonalWebpage";
 
+
 function App() {
     return (
         <>
@@ -34,6 +41,12 @@ function App() {
                             <Route path="/" element={<Home />} />
                             <Route path="/home" element={<Home />} />
                             <Route path="/experience" element={<Experience />} />
+                            <Route path="/experience/rcnl" element={<RCNL />} />
+                            <Route path="/experience/agilent" element={<Agilent />} />
+                            <Route path="/experience/delaware-ta" element={<DelawareTA />} />
+                            <Route path="/experience/delaware-degree" element={<DelawareDegree />} />
+                            <Route path="/experience/rice-phd" element={<RicePhD />} />
+                            <Route path="/experience/horc-lab" element={<HorcLab />} />
                             <Route path="/experience/research-assistant" element={<ResearchAssistant />} />
                             <Route path="/experience/jnj-intern" element={<JnJIntern />} />
                             <Route path="/experience/phd-ud" element={<PhdUD />} />

@@ -1,5 +1,5 @@
 import './Home.css'
-import ChrisakosImage from './chrys_back_blur.png'
+import ChrisakosImage from './Rob_2022.jpeg'
 
 function Home () {
     return (
@@ -11,24 +11,22 @@ function Home () {
                     <img src={ChrisakosImage} alt="Chrisakos img" className="main-image m-3"></img>
                     {/* Details */}
                     <div className="d-flex flex-column justify-content-center m-3">
-                        <h1 className="fw-bold">Chrysostomos (Chrys) Karakasis</h1>
-                        <span> I am a fifth year Ph.D. Candidate in Mechanical Engineering at the University of Delaware.
-                            My expected graduation date is in June of 2024 and I am excited to explore job opportunities in industry or research centers. </span>
+                        <h1 className="fw-bold">Robert Salati</h1>
+                        <span> I am a first year PhD Student at Rice University. </span>
                         <br/>
-                        <span> Currently, I am working as a research assistant at the Human-Oriented Robotics and Control Lab
-                            <a href="https://sites.udel.edu/horclab/" target="_blank" rel="noopener noreferrer"
-                               style={{marginRight: '0px'}}> (HORC Lab)</a>
-                            , where my main research focuses on achieving <strong>robust and stable locomotion over compliant terrains</strong>, with applications to lower-limb prostheses and bipedal robots.
-                            Please feel welcome to look around and feel free to reach out via the contact links below.
+                        <span> Currently I am working as a graduate research assistant in the Rice Computational Neuromechanics Lab
+                            <a href="https://rcnl.rice.edu/" target="_blank" rel="noopener noreferrer"
+                               style={{marginRight: '0px'}}> (RCNL)</a>
+                            . My research focus is on using personalized neuromusculoskeletal models to design patient specific surgical procedures for treating movment disorders.
                         </span>
                         <div className="row">
                             <div className="col-md mt-5">
                                 <h3 className="fw-bold">Interests</h3>
                                 <ul className="ul-interests mb-0">
-                                    <li>Rehabilitation & Medical Robotics</li>
-                                    <li>Legged Locomotion</li>
-                                    <li>Dynamics and Control</li>
-                                    <li>Embedded Systems Design</li>
+                                    <li>Predictive Modeling</li>
+                                    <li>Surgical Design</li>
+                                    <li>Prosthetic and Exoskeleton Control</li>
+                                    <li>Data Science</li>
                                 </ul>
                             </div>
                             <div className="col-md mt-5">
@@ -38,10 +36,10 @@ function Home () {
                                         <i className="fa-li fas fa-graduation-cap"></i>
                                         <div className="description">
                                             <p className="course" style={{fontWeight: 500, marginBottom: '0px'}}>
-                                                Ph.D., Mechanical Engineering, 2024 (expected)
+                                                Ph.D., Mechanical Engineering, 2034 (expected)
                                             </p>
                                             <p className="institution" style={{fontWeight: 300, marginBottom: '2px'}}>
-                                                University of Delaware
+                                                Rice University
                                             </p>
                                         </div>
                                     </li>
@@ -49,7 +47,7 @@ function Home () {
                                         <i className="fa-li fas fa-graduation-cap"></i>
                                         <div className="description">
                                             <p className="course" style={{fontWeight: 500, marginBottom: '0px'}}>
-                                                M.Sc., Mechanical Engineering, 2023
+                                                MS, Robotics, 2023
                                             </p>
                                             <p className="institution" style={{fontWeight: 300, marginBottom: '2px'}}>
                                                 University of Delaware
@@ -59,10 +57,10 @@ function Home () {
                                         <i className="fa-li fas fa-graduation-cap"></i>
                                         <div className="description">
                                             <p className="course" style={{fontWeight: 500, marginBottom: '0px'}}>
-                                                B.Sc. & M.Sc., Electrical and Computer Engineering, 2019
+                                                BS, Mechanical Engineering, 2022
                                             </p>
                                             <p className="institution" style={{fontWeight: 300, marginBottom: '2px'}}>
-                                                National Technical University of Athens
+                                                University of Delaware
                                             </p>
                                         </div>
                                     </li>

@@ -1,6 +1,10 @@
 import Sax from "./img/SAXOPHONE-PLAYER.jpg";
 import Record from "./img/record_robot_inky.jpg";
 import Circus from "./Circus/img/refugee_camp.jpg"
+import Coffee from "./img/Coffee.png"
+import Eagles from "./img/eagles.webp"
+import Squirrel from "./img/squirrel.jpg"
+import Plants from "./img/plants.webp"
 import {Link} from "react-router-dom";
 
 function Hobbies () {
@@ -12,19 +16,52 @@ function Hobbies () {
 
                 <div className="container d-flex flex-wrap justify-content-center">
 
-                    <Link to="Circus" className="d-flex flex-column align-items-center m-5 clickable" style={{ color: 'black' }}>
-                        <img src={Circus} alt="Sax img" className="section-logo m-2" style={{ width: 'auto', maxHeight: '250px', maxWidth: '100%'}}/>
-                        <h4 className="fw-bold m-2">Circus, Clowning and Acrobatics</h4>
+                    <Link to="Coffee" className="d-flex flex-column align-items-center m-5 clickable" style={{ color: 'red' }}>
+                        {/*<img src={ankle_prosthesis} alt="Logo 1" className="section-logo m-2" style={{ width: 'auto', maxHeight: '250px'}}/>*/}
+                        <div className="card-shadow">
+                            <div className="card-projects">
+                                <div className="card-image-container-projects">
+                                    <img className="card-image-projects" src={Coffee} id='coffee' style={{ width: '150%'}}/>
+                                </div>
+                                <div className="card-title-projects fw-bold">Coffee</div>
+                            </div>
+                        </div>
                     </Link>
 
-                    <Link to="jazz-saxophone" className="d-flex flex-column align-items-center m-5 clickable" style={{ color: 'black' }}>
-                        <img src={Sax} alt="Sax img" className="section-logo m-2" style={{ width: 'auto', maxHeight: '250px', maxWidth: '100%'}}/>
-                        <h4 className="fw-bold m-2">Jazz Saxophone</h4>
+                    <Link to="Sports" className="d-flex flex-column align-items-center m-5 clickable" style={{ color: 'red' }}>
+                        {/*<img src={ankle_prosthesis} alt="Logo 1" className="section-logo m-2" style={{ width: 'auto', maxHeight: '250px'}}/>*/}
+                        <div className="card-shadow">
+                            <div className="card-projects">
+                                <div className="card-image-container-projects">
+                                    <img className="card-image-projects" src={Eagles} id='sports' style={{ width: '130%'}}/>
+                                </div>
+                                <div className="card-title-projects fw-bold">Sports</div>
+                            </div>
+                        </div>
                     </Link>
 
-                    <Link to="collecting-records" className="d-flex flex-column align-items-center m-5 clickable" style={{ color: 'black' }}>
-                        <img src={Record} alt="Record img" className="section-logo m-2" style={{ width: 'auto', maxHeight: '250px', maxWidth: '100%'}}/>
-                        <h4 className="fw-bold m-2">Collecting Records</h4>
+                    <Link to="Squirrels" className="d-flex flex-column align-items-center m-5 clickable" style={{ color: 'red' }}>
+                        {/*<img src={ankle_prosthesis} alt="Logo 1" className="section-logo m-2" style={{ width: 'auto', maxHeight: '250px'}}/>*/}
+                        <div className="card-shadow">
+                            <div className="card-projects">
+                                <div className="card-image-container-projects">
+                                    <img className="card-image-projects" src={Squirrel} id='squirrel' style={{ width: '150%'}}/>
+                                </div>
+                                <div className="card-title-projects fw-bold">Squirrels</div>
+                            </div>
+                        </div>
+                    </Link>
+
+                    <Link to="Plants" className="d-flex flex-column align-items-center m-5 clickable" style={{ color: 'red' }}>
+                        {/*<img src={ankle_prosthesis} alt="Logo 1" className="section-logo m-2" style={{ width: 'auto', maxHeight: '250px'}}/>*/}
+                        <div className="card-shadow">
+                            <div className="card-projects">
+                                <div className="card-image-container-projects">
+                                    <img className="card-image-projects" src={Plants} id='plants' style={{ width: '100%'}}/>
+                                </div>
+                                <div className="card-title-projects fw-bold">Plants</div>
+                            </div>
+                        </div>
                     </Link>
                 </div>
             </div>

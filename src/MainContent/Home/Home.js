@@ -1,5 +1,5 @@
 import './Home.css'
-import ChrisakosImage from './Rob_2022.jpeg'
+import RobImage from './Rob_2022.jpeg'
 
 function Home () {
     return (
@@ -8,22 +8,23 @@ function Home () {
                 <div className="d-flex flex-column flex-xl-row justify-content-center align-items-center"
                      style={{maxWidth: '1536px'}}>
                     {/* Image */}
-                    <img src={ChrisakosImage} alt="Chrisakos img" className="main-image m-3"></img>
+                    <img src={RobImage} alt="Rob img" className="main-image m-3"></img>
                     {/* Details */}
                     <div className="d-flex flex-column justify-content-center m-3">
                         <h1 className="fw-bold">Robert Salati</h1>
                         <span> I am a first year PhD Student at Rice University. </span>
                         <br/>
-                        <span> Currently I am working as a graduate research assistant in the Rice Computational Neuromechanics Lab
+                        <span> Currently I am working as a graduate research assistant in the Rice Computational Neuromechanics Lab (
                             <a href="https://rcnl.rice.edu/" target="_blank" rel="noopener noreferrer"
-                               style={{marginRight: '0px'}}> (RCNL)</a>
-                            . My research focus is on using personalized neuromusculoskeletal models to design patient specific surgical procedures for treating movment disorders.
+                               style={{marginRight: '0px'}}>RCNL</a>
+                            ). My research focus is on using personalized neuromusculoskeletal models to design patient specific surgical procedures for treating movment disorders.
                         </span>
                         <div className="row">
                             <div className="col-md mt-5">
                                 <h3 className="fw-bold">Interests</h3>
                                 <ul className="ul-interests mb-0">
-                                    <li>Predictive Modeling</li>
+                                    <li>Biomechanics</li>
+                                    <li>Predictive Gait Modeling</li>
                                     <li>Surgical Design</li>
                                     <li>Prosthetic and Exoskeleton Control</li>
                                     <li>Data Science</li>
@@ -36,7 +37,7 @@ function Home () {
                                         <i className="fa-li fas fa-graduation-cap"></i>
                                         <div className="description">
                                             <p className="course" style={{fontWeight: 500, marginBottom: '0px'}}>
-                                                Ph.D., Mechanical Engineering, 2034 (expected)
+                                                Ph.D., Mechanical Engineering, 2028 (expected)
                                             </p>
                                             <p className="institution" style={{fontWeight: 300, marginBottom: '2px'}}>
                                                 Rice University

@@ -12,12 +12,11 @@ function Projects () {
                 <h1 className="fw-bold">Projects</h1>
                 <div className="container d-flex flex-wrap justify-content-center">
 
-                    <Link to="hto" className="d-flex flex-column align-items-center m-5 clickable" style={{ color: 'red' }}>
-                        {/*<img src={ankle_prosthesis} alt="Logo 1" className="section-logo m-2" style={{ width: 'auto', maxHeight: '250px'}}/>*/}
+                    <Link to="hto" className="d-flex flex-column align-items-center m-5 clickable" style={{ color: 'black' }}>
                         <div className="card-shadow">
                             <div className="card-projects">
                                 <div className="card-image-container-projects">
-                                    <img className="card-image-projects" src={HTO} id='hto' alt="RCNL"/>
+                                    <img className="card-image-projects" src={HTO} id='hto' alt="HTO diagram" style={{width: '110%'}}/>
                                 </div>
                                 <div className="card-title-projects fw-bold">High Tibial Osteotomy</div>
                                 <div className="card-subtext-projects fw-bold">2023 - Present</div>
@@ -25,12 +24,11 @@ function Projects () {
                         </div>
                     </Link>
 
-                    <Link to="ankle-prosthesis" className="d-flex flex-column align-items-center m-5 clickable" style={{ color: 'red' }}>
-                        {/*<img src={ankle_prosthesis} alt="Logo 1" className="section-logo m-2" style={{ width: 'auto', maxHeight: '250px'}}/>*/}
+                    <Link to="ankle-prosthesis" className="d-flex flex-column align-items-center m-5 clickable" style={{ color: 'black' }}>
                         <div className="card-shadow">
                             <div className="card-projects">
                                 <div className="card-image-container-projects">
-                                    <img className="card-image-projects" src={ankle_prosthesis} id='prosthesis' alt="HORC"/>
+                                    <img className="card-image-projects" src={ankle_prosthesis} id='prosthesis' alt="HORC" style={{width: '100%'}}/>
                                 </div>
                                 <div className="card-title-projects fw-bold">Ankle-foot Prosthesis</div>
                                 <div className="card-subtext-projects fw-bold">2022 - 2023</div>
@@ -38,12 +36,11 @@ function Projects () {
                         </div>
                     </Link>
 
-                    {/* <Link to="mechatronics" className="d-flex flex-column align-items-center m-5 clickable" style={{ color: 'red' }}>
-                        <img src={ankle_prosthesis} alt="Logo 1" className="section-logo m-2" style={{ width: 'auto', maxHeight: '250px'}}/>
+                    <Link to="mechatronics" className="d-flex flex-column align-items-center m-5 clickable" style={{ color: 'black' }}>
                         <div className="card-shadow">
                             <div className="card-projects">
                                 <div className="card-image-container-projects">
-                                    <img className="card-image-projects" src={Mechatronics} id='mechatronics' alt="UD"/>
+                                    <img className="card-image-projects" src={Mechatronics} id='mechatronics' alt="UD" style={{width: '100%'}}/>
                                 </div>
                                 <div className="card-title-projects fw-bold">Autonomous Search & Rescue Robots</div>
                                 <div className="card-subtext-projects fw-bold">2022</div>
@@ -51,18 +48,17 @@ function Projects () {
                         </div>
                     </Link>
 
-                    <Link to="senior-design" className="d-flex flex-column align-items-center m-5 clickable" style={{ color: 'red' }}>
-                        <img src={ankle_prosthesis} alt="Logo 1" className="section-logo m-2" style={{ width: 'auto', maxHeight: '250px'}}/>
+                    <Link to="senior-design" className="d-flex flex-column align-items-center m-5 clickable" style={{ color: 'black' }}>
                         <div className="card-shadow">
                             <div className="card-projects">
                                 <div className="card-image-container-projects">
-                                    <img className="card-image-projects" src={SeniorDesign} id='SeniorDesign' alt="HORC"/>
+                                    <img className="card-image-projects" src={SeniorDesign} id='SeniorDesign' alt="HORC" style={{width: '190%'}}/>
                                 </div>
                                 <div className="card-title-projects fw-bold">Automated Hydroponic Crop Scanning System</div>
                                 <div className="card-subtext-projects fw-bold">2021</div>
                             </div>
                         </div>
-                    </Link> */}
+                    </Link>
 
                 </div>
             </div>

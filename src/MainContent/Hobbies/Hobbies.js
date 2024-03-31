@@ -1,6 +1,3 @@
-import Sax from "./img/SAXOPHONE-PLAYER.jpg";
-import Record from "./img/record_robot_inky.jpg";
-import Circus from "./Circus/img/refugee_camp.jpg"
 import Coffee from "./img/Coffee.png"
 import Eagles from "./img/eagles.webp"
 import Squirrel from "./img/squirrel.jpg"
@@ -21,7 +18,7 @@ function Hobbies () {
                         <div className="card-shadow">
                             <div className="card-projects">
                                 <div className="card-image-container-projects">
-                                    <img className="card-image-projects" src={Coffee} id='coffee' style={{ width: '150%'}}/>
+                                    <img className="card-image-projects" src={Coffee} id='coffee' alt="coffee header" style={{ width: '150%'}}/>
                                 </div>
                                 <div className="card-title-projects fw-bold">Coffee</div>
                             </div>
@@ -33,7 +30,7 @@ function Hobbies () {
                         <div className="card-shadow">
                             <div className="card-projects">
                                 <div className="card-image-container-projects">
-                                    <img className="card-image-projects" src={Eagles} id='sports' style={{ width: '130%'}}/>
+                                    <img className="card-image-projects" src={Eagles} id='sports' alt="sport header"style={{ width: '130%'}}/>
                                 </div>
                                 <div className="card-title-projects fw-bold">Sports</div>
                             </div>
@@ -45,7 +42,7 @@ function Hobbies () {
                         <div className="card-shadow">
                             <div className="card-projects">
                                 <div className="card-image-container-projects">
-                                    <img className="card-image-projects" src={Squirrel} id='squirrel' style={{ width: '150%'}}/>
+                                    <img className="card-image-projects" src={Squirrel} id='squirrel' alt="squirrel header" style={{ width: '150%'}}/>
                                 </div>
                                 <div className="card-title-projects fw-bold">Squirrels</div>
                             </div>
@@ -57,7 +54,7 @@ function Hobbies () {
                         <div className="card-shadow">
                             <div className="card-projects">
                                 <div className="card-image-container-projects">
-                                    <img className="card-image-projects" src={Plants} id='plants' style={{ width: '100%'}}/>
+                                    <img className="card-image-projects" src={Plants} id='plants' alt="plant header" style={{ width: '100%'}}/>
                                 </div>
                                 <div className="card-title-projects fw-bold">Plants</div>
                             </div>
